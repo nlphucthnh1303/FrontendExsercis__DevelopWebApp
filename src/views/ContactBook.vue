@@ -1,7 +1,7 @@
 <script>
-import InputSearch from './InputSearch.vue';
-import ContactList from './ContactList.vue';
-import ContactCard from './ContactCard.vue';
+import InputSearch from '../components/InputSearch.vue';
+import ContactList from '../components/ContactList.vue';
+import ContactCard from '../components/ContactCard.vue';
 import ContactService from '../services/contact.service';
 
 export default {

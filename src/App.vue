@@ -2,9 +2,8 @@
 
 <template>
   <div id="app">
-    <AppHeader /> 
-
     <div class="container mt-3">
+       <AppHeader /> 
       <router-view />
     </div>
   </div>
@@ -22,8 +21,8 @@ export default {
 
 
 <style>
-.page {
-  max-width: 400px;
+/* .page {
+  max-width: 1000px;
   margin: auto;
-}
+} */
 </style>
